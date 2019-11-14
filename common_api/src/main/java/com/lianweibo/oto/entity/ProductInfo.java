@@ -2,10 +2,7 @@ package com.lianweibo.oto.entity;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.Date;
 
@@ -21,7 +18,7 @@ import java.util.Date;
 @Entity
 public class ProductInfo {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String productId;
 
     /** 名字. */
