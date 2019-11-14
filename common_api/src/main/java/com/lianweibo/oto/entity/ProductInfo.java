@@ -14,7 +14,6 @@ import java.util.Date;
  * @Version V1.0
  **/
 @Data
-@Table(name = "product_info")
 @Entity
 public class ProductInfo {
     @Id
