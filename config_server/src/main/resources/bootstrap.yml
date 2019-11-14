@@ -5,5 +5,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/success1988/o2o_diancan
+          uri: https://github.com/mygit-lwb/oto_diancan.git
           search-paths: config-repo
