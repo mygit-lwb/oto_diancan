@@ -1,4 +1,4 @@
-package com.lianweibo.oto.entity;
+package com.lianweibo.product.entity;
 
 import lombok.Data;
 

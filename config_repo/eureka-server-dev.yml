@@ -5,4 +5,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:${server.port}/eureka
     register-with-eureka: false  #不对自己进行注册
-    fetch-registry: false
+    fetch-registry: true

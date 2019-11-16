@@ -1,4 +1,4 @@
-package com.lianweibo.oto;
+package com.lianweibo.product;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
