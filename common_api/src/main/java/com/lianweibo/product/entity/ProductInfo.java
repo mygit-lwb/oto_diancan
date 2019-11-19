@@ -1,6 +1,7 @@
 package com.lianweibo.product.entity;
 
 import lombok.Data;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -40,9 +41,9 @@ public class ProductInfo {
 
     /** 类目编号. */
     private Integer categoryType;
-
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date createTime;
-
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date updateTime;
 
 

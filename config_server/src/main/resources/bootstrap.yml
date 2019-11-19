@@ -7,11 +7,3 @@ spring:
         git:
           uri: https://github.com/mygit-lwb/oto_diancan.git
           search-paths: config_repo
-#logging:
-#  level:
-#    org:
-#      springframework:
-#        security: DEBUG
-#    hibernate: DEBUG
-#  file: config_server.log
-
