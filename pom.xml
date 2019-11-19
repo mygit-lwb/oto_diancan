@@ -9,6 +9,7 @@
         <module>config_server</module>
         <module>product_service</module>
         <module>o2o_gateway</module>
+        <module>zuul_service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
