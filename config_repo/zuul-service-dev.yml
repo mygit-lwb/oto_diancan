@@ -7,7 +7,4 @@ eureka:
     fetch-registry: true #获取微服务注册表，用于feign或zuul
 zuul:
   routes: #路由
-    order:
-      serviceId: product-service
-      path: /ps/**
-      strip-prefix: false
+    product-service: /product-service/**
